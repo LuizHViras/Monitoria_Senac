@@ -12,8 +12,10 @@
 //          numero 9.
 //[]-------------------------------------------------------------[]
 int conta9(int v[], int n){
-  // escreva seu codigo aqui...	
-  return 0;
+  int cont=0;
+	// Enquanto a variável "i" for menor que o tamanho do vetor, a variável "cont" conta quantas vezes o vetor possui o número 9
+	for (int i=0; i<n; i++) if (v[i]==9) cont++;
+	return cont;
 }
 
 

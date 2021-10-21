@@ -1,5 +1,5 @@
-# Monitoria Introdução a Lógica de Programação: Senac - Santo Amaro
+# Monitoria Algoritmo e Programação: Senac - Santo Amaro
 
-Aqui disponibilizo todos os exercícios da matéria introdução a lógica de programação, lecionada pelo professor Leonardo Takuno.
+Aqui disponibilizo todos os exercícios da matéria Algoritmo e Programação, lecionada pelo professor Leonardo Takuno.
 
 Todos os exercicios aqui disponibilizados são de unica e exclusivamente utilização para estudo, comparação e entendimento da matéria.

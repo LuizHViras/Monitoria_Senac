@@ -14,8 +14,10 @@
 //          do vetor eh o numero 9.
 //[]-------------------------------------------------------------[]
 bool primeiros_elementos(int v[], int n){
-   //  escreva seu codigo aqui ...
-   return false;
+		for(int cont=0; cont<n && cont<4; cont++) {
+			if(v[cont]==9) return true;
+		}
+	return false;
 }
 
 

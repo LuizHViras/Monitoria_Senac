@@ -14,8 +14,21 @@
 //          ex: 57 e 27, tem o ultimo digito igual a 7
 //[]-------------------------------------------------------------[]
 bool ultimo_digito(int a, int b){
-   // escreva seu codigo aqui ...	
-   return false;
+  int a_temp=a, b_temp=b;
+
+	// Divide o valor da variável "a" por 10 para obter sua dezena
+	a_temp=a_temp/10;
+	// Subtrai "a" pelo valor de sua dezena e obtem-se apenas a unidade
+	a=a-a_temp*10;
+	// Divide o valor da variável "b" por 10 para obter sua dezena
+	b_temp=b_temp/10;
+	// Subtrai "b" pelo valor de sua dezena e obtem-se apenas a unidade
+	b=b-b_temp*10;
+
+	// Se as unidades de "a" e "b" forem iguais, retorne true
+	if (a==b) return true;
+	// Se as unidades de "a" e "b" forem diferentes, retorne false
+	else return false;
 }
 
 

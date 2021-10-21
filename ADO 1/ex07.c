@@ -13,8 +13,12 @@
 //          maximo_entre_10_20.
 //[]-------------------------------------------------------------[]
 int maximo_entre_10_20(int a, int b){
-  // escreva seu codigo aqui ...
-  return 0;
+	// Se "a" estiver entre 10 e 20 e "a" é maior que "b" ou "b" é menor que 10 ou maior que 20
+	if(a>=10 && a<=20 && (a>b || (b<10 || b>20))) return a;
+	// Então, se "b" estiver entre 10 e 20 e "b" é maior que "a" ou "a" é menor que 10 ou maior que 20
+	else if(b>=10 && b<=20 && (b>a || (a<10 || a>20))) return b;
+	// Então, se "a" for menor que 10 e maior que 20 e "b" for menor que 10 ou maior que 20
+	else return 0;
 }
 
 
