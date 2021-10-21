@@ -1,4 +1,4 @@
-# Monitoria Algoritmo e Programação: Senac - Santo Amaro
+# Monitoria Algoritmos e Programação: Senac - Santo Amaro
 
 Aqui disponibilizo todos os exercícios da matéria Algoritmo e Programação, lecionada pelo professor Leonardo Takuno.
 
