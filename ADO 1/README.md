@@ -12,7 +12,7 @@ Todos os exercicios aqui disponibilizados são de unica e exclusivamente utiliza
 	4  - Devolve o maior número;✅
 	5  - Devolve o valor mais próximo de 10 e devolve 0 caso de empate;✅
 	6  - Devolve true se ambos estão no intervalo 30 - 40 (inclusive) ou ambos estão no intervalo 40 - 50 (inclusive);✅
-	7  - Devolve o maior valor que está no máximo entre 10 - 20(inclusive) ou retorne 0 se nenhum deles estiver entre esse intervalo;Devolve true se ambos estão no intervalo 30 - 40 (inclusive) ou ambos estão no intervalo 40 - 50 (inclusive);✅
+	7  - Devolve o maior valor que está no máximo entre 10 - 20(inclusive) ou retorne 0 se nenhum deles estiver entre esse intervalo;✅
 	8  - Devolve "true" se ele tem os mesmos últimos digitos;✅
 	9  - Devolve o número de vezes que ocorre o número 9;✅
 	10 - Devolve "true" se um dos primeiros quatro elementos é o número 9.✅
