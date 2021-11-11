@@ -14,7 +14,7 @@
 //[]-------------------------------------------------------------[]
 int sequencia_66_67(int v[], int n){
   int cont=0;
-	// Looping correndo o vetor inteiro
+	// Loop percorrendo o vetor inteiro
 	for(int i=0; i<n; i++){
 		// Se a posição "i" do vetor é "6", a próxima for "6" ou "7" aumenta um no contador
 		if(v[i]==6 && (v[i+1]==6 || v[i+1]==7)) cont++;
@@ -117,3 +117,4 @@ int main(){
     printf("sua nota foi: %.2f\n", r/10.0);
    return 0;
 }
+

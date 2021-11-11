@@ -16,7 +16,9 @@
 //          E false caso contrario.
 //[]-------------------------------------------------------------[]
 bool primeiro_ultimo_iguais(int v[], int n){
-  // escreva seu codigo aqui...	
+  /* Se o tamanho do vetor for maior igual a "1" e os primeiro e último elementos forem iguais retorne true
+	 * Lembre-se, o último elemento do vetor é o seu tamanho - 1 */
+	if(n>=1 && v[0]==v[n-1]) return true;
   return false;     
 }
 

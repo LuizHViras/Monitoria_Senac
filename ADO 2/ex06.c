@@ -19,7 +19,9 @@
 //          E false caso contrario.
 //[]-------------------------------------------------------------[]
 bool primeiro_ultimo_iguais(int v1[], int n1, int v2[], int n2){
-  // escreva o seu codigo aqui ...	
+ /* Se o tamanho do vetor "v1" e "v2" for maior igual a "1" e os primeiros ou os últimos elementos forem iguais, retorne true
+	 * Lembre-se, o último elemento do vetor é o seu tamanho - 1 */
+ if(n1>=1 && n2>=1 && (v1[0]==v2[0] || v1[n1-1]==v2[n2-1]))	return true;
   return false;
 }
 

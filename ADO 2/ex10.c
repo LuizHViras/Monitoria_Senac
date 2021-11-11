@@ -12,8 +12,8 @@
 //   Saida: devolve a soma dos elementos do vetor
 //[]-------------------------------------------------------------[]
 int soma3(int v[3]){
-   // escreva o seu codigo aqui ...	
-   return 0;
+  // Retorna a soma dos três primeiros elementos do vetor
+	return v[0]+v[1]+v[2];
 }
 
 

@@ -15,8 +15,12 @@
 //          caso contrário
 //[]-------------------------------------------------------------[]
 bool esta_em_ordem_crescente(int v[], int n){
-   // escreva o seu codigo aqui ...	
-   return false;
+  /* Loop percorrendo o vetor inteiro
+	 * O último elemento do vetor é o "/0", e por ser um valor nulo ele sempre será dará erro
+	 * Portanto é necessário excluí-lo da consulta (i<n-1)
+	 * Se o elemento da posição "i" for maior do que o da posição seguinte, retorne "false" */
+	for(int i=0; i<n-1; i++) if(v[i]>v[i+1]) return false;
+	return true;
 }
 
 

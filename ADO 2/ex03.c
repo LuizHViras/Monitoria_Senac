@@ -16,8 +16,18 @@
 //          E false caso contrario.
 //[]-------------------------------------------------------------[]
 bool sem_triplas(int v[], int n){
-  // escreva seu codigo aqui ...	
-  return false;     
+  int elemento;
+	// Loop percorrendo o vetor inteiro
+	for(int i=0; i<n; i++){
+		// Atribui o elemento do vetor na posição "i" para a variável "elemento"
+		elemento = v[i];
+		// Se a posição "i+1" for igual a "i+2" e igual a "elemento", retorne false
+		if(v[i+1]==elemento && v[i+2]==elemento) return false;
+	}
+	/* Quando se retorna algo para a função, ela se torna "imutável"
+	 * Se ele não retornar false ele retornará true, mesmo que não tenha "else"
+	 * Se ele retornar false não vai mudar para true */
+  return true;     
 }
 
 

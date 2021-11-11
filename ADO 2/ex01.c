@@ -14,7 +14,7 @@
 //          1, 2, 3 aparece no vetor em algum lugar.
 //[]-------------------------------------------------------------[]
 bool sequencia123(int v[], int n){
-  // Looping correndo o vetor inteiro
+  // Loop percorrendo o vetor inteiro
 	for(int i=0; i<n; i++){
 		// Se a posição "i" do vetor é "1", a próxima for "2" e a terceira for "3" retorna "true"
 		if(v[i]==1 && v[i+1]==2 && v[i+2]==3) return true;

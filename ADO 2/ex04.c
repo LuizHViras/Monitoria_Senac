@@ -16,7 +16,9 @@
 //          E false caso contrario.
 //[]-------------------------------------------------------------[]
 bool primeiro_ultimo_6(int v[], int n){
-  // escreva seu codigo aqui ...	
+  /* Se o primeiro elemento ou o último elemento forem iguais a "6" retorne true
+	 * Lembre-se, o último elemento do vetor é o seu tamanho - 1 */
+	if (v[0]==6 || v[n-1]==6) return true;
   return false;     
 }
 

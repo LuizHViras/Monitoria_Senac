@@ -1,10 +1,4 @@
-# Monitoria Algoritmos e Programação: Senac - Santo Amaro
-
-Aqui disponibilizo todos os exercícios da matéria Algoritmo e Programação, lecionada pelo professor Leonardo Takuno.
-
-Todos os exercicios aqui disponibilizados são de unica e exclusivamente utilização para estudo, comparação e entendimento da matéria.
-
-## Exercícios
+# ADO 1 - Funções
 	
 	1  - Devolve a soma entre "a" e "b", porém se os números forem iguais devolve o dobro da soma;✅
 	2  - Devolve a diferença absoluta entre "n" e 21. Se "n" for maior que 21 devolve o dobro da diferença absoluta;✅

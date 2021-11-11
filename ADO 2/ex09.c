@@ -18,7 +18,14 @@
 //          2. s[i] = v[i] + v[i-1] + v[i-2] + ... + v[0]  
 //[]-------------------------------------------------------------[]
 void soma_dos_prefixos(int v[], int s[], int n){
-   // escreva o seu codigo aqui ...
+	// Loop que percorre o vetor "s"
+	for(int i=0; i<n; i++){
+		// Loop que percorre o vetor "v" a partir da posição referente a posição do vetor "s"
+		for(int j=i; j>=0; j--){
+			// Elemento do vetor "s" soma o valor dos elementos da posição "i" à "0" do vetor "v"
+			s[i] = s[i]+v[j];
+		}
+	}
 }
 
 //[]-------------------------------------------------------------[]

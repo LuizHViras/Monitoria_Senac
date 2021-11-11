@@ -1,18 +1,12 @@
-# Monitoria Algoritmos e Programação: Senac - Santo Amaro
-
-Aqui disponibilizo todos os exercícios da matéria Algoritmo e Programação, lecionada pelo professor Leonardo Takuno.
-
-Todos os exercicios aqui disponibilizados são de unica e exclusivamente utilização para estudo, comparação e entendimento da matéria.
-
-## Exercícios
+#ADO 2 - Vetores
 	
-	1  - Devolve a soma entre "a" e "b", porém se os números forem iguais devolve o dobro da soma;✅
-	2  - Devolve a diferença absoluta entre "n" e 21. Se "n" for maior que 21 devolve o dobro da diferença absoluta;✅
-	3  - Devolve true se um dos dois é 10 ou a soma é 10;✅
-	4  - Devolve o maior número;✅
-	5  - Devolve o valor mais próximo de 10 e devolve 0 caso de empate;✅
-	6  - Devolve true se ambos estão no intervalo 30 - 40 (inclusive) ou ambos estão no intervalo 40 - 50 (inclusive);✅
-	7  - Devolve o maior valor que está no máximo entre 10 - 20(inclusive) ou retorne 0 se nenhum deles estiver entre esse intervalo;Devolve true se ambos estão no intervalo 30 - 40 (inclusive) ou ambos estão no intervalo 40 - 50 (inclusive);✅
-	8  - Devolve "true" se ele tem os mesmos últimos digitos;✅
-	9  - Devolve o número de vezes que ocorre o número 9;✅
-	10 - Devolve "true" se um dos primeiros quatro elementos é o número 9.✅
+	1  - Devolve "true" se a sequência de números "1", "2", "3" aparece no vetor em algum lugar;✅
+	2  - Devolve o número de vezes que o número "6" aparece duas vezes lado a lado ou seja um "6" seguido de um "7";✅
+	3  - Devolve "true" se o vetor não contiver tripla;✅
+	4  - Devolve "true" se o primeiro e o último elemento do vetor é "6" ou devolve "false" caso contrário;✅
+	5  - Devolve "true" se o tamanho do vetor é maior ou igual a 1 e o primeiro e último elemento do vetor são iguais ou devolve "false" caso contrário;✅
+	6  - Devolve "true se os primeiros ou os últimos elementos dos vetores são iguais e "false" caso contrário;✅
+	7  - Devolve "true" se está em ordem crescente ou "false" caso contrário;✅
+	8  - Devolve "true" caso os vetores forem iguais ou "false" caso contrário;✅
+	9  - Define "s[]" na posição "i" como a soma dos prefixos do vetor "v[]" na posição "i";✅
+	10 - Devolve a soma dos elementos do vetor.✅

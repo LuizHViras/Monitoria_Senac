@@ -20,8 +20,21 @@
 //   Considere vetores sem elementos repetidos.
 //[]-------------------------------------------------------------[]
 bool iguais(int v1[], int n1, int v2[], int n2){
-   // escreva o seu codigo aqui ... 
-   return false;
+  int contador=0;
+	// Se o tamanho dos vetores forem diferentes, retorna false
+	if(n1!=n2) return false;
+	// Loop que percorre o vetor "v1"
+	for(int i=0; i<n1; i++){
+		// Loop que percorre o vetor "v2"
+		for(int j=0; j<n2; j++) {
+			// Se o elemento de "v1" de posição "i" é igual a algum elemento do vetor "v2", a variável "contador" aumenta em um
+			if(v1[i]==v2[j]) contador++;
+		}
+	}
+	/* Se o tamanho de um dos vetores (pode ser n1 ou n2) for maior do que a quantidade de vezes que o elemento de "v1" for igual a "v2", retorne false 
+	 * Nesse momento n1 e n2 são iguais pois passaram do primeiro if */
+	if(n1>contador) return false;
+	return true;
 }
 
 
