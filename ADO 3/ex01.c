@@ -15,7 +15,20 @@
 //            devolve falso caso contrario
 //[]-------------------------------------------------------------[]
 bool tem_tres_numeros_iguais(int v[], int n){
-   return false;
+  int cont;
+	// Loop que percorre o vetor "v[]"
+	for (int i=0; i<n; i++){
+		// A variável irá contar a quantidade de vezes que o número da posição "v[i]" se repetirá 
+		cont=0;
+		// Loop que percorre o vetor "v[]", "j" irá variar mas "i" permanecerá fixo
+		for (int j=0; j<n; j++){
+			// Se o elemento da posição i se repete, soma "1" em "cont"
+			if(v[j]==v[i]) cont++;
+		}
+		// Se um elemento se repetir exatamente "3" vezes, retorna true
+		if(cont==3) return true;
+	}
+	return false;
 }
 
 
