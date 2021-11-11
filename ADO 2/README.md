@@ -1,4 +1,4 @@
-#ADO 2 - Vetores
+# ADO 2 - Vetores
 	
 	1  - Devolve "true" se a sequência de números "1", "2", "3" aparece no vetor em algum lugar;✅
 	2  - Devolve o número de vezes que o número "6" aparece duas vezes lado a lado ou seja um "6" seguido de um "7";✅
