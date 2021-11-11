@@ -1,4 +1,4 @@
-# ADO 2 - Vetores
+# ADO 3 - Vetores
 	
 	1  - Devolve "true" se existe algum número que aparece exatamente 3 vezes no vetor ou devolve "false" caso contrário;✅
 	2  - Devolve o maior número primo do vetor;
