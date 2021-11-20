@@ -16,8 +16,18 @@
 //       ex.:  121, 313, 4, 55 ...
 //[]-------------------------------------------------------------[]
 int conta_numeros_palindromos(int v[], int n){
-   // escreva o seu codigo aqui ...
-   return 0;
+	int aux, reverso, qntd_palindromo=0;
+
+	for(int i=0; i<n; i++){
+		reverso = 0;
+
+		for(aux = v[i]; aux != 0; aux = aux / 10) 
+			reverso = reverso * 10 + aux % 10;
+
+		if(reverso == v[i]) qntd_palindromo++;
+	}
+
+	return qntd_palindromo;
 }
 
 

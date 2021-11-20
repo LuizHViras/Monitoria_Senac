@@ -14,7 +14,10 @@
 //            um deles some o valor 1
 //[]-------------------------------------------------------------[]
 void soma_um_nos_pares(int v[], int n){
-   // escreva o seu codigo aqui ...
+  /* Loop que percorre o vetor inteiro
+	 * Se o resto da divisão do elemento do vetor  por "2" for "0", o elemento é par
+	 * Soma "1" ao elemento */
+	for(int i=0; i<n; i++) if(v[i]%2==0)v[i]++;
 }
 
 //[]-------------------------------------------------------------[]

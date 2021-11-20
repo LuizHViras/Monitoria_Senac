@@ -12,8 +12,12 @@
 //            elemento do vetor
 //[]-------------------------------------------------------------[]
 int maior_que_o_primeiro(int v[], int n){
-    // escreva o seu codigo aqui ...
-   return 0;
+	int cont=0;
+
+	for(int i=0; i<n; i++)
+		// Se o elemento do vetor for maior do que o primeiro elemento, aumente em "1" a variável "cont"
+		if(v[i]>v[0]) cont++;
+	return cont;
 }
 
 

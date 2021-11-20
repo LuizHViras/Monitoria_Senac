@@ -12,10 +12,18 @@
 //            ou que terminam com 7;
 //[]-------------------------------------------------------------[]
 int soma7(int v[], int n){
-    // escreva o seu codigo aqui ...
-   return 0;
+  int soma=0; // Variável que armazenará a soma dos elementos
+	int elemento=0; // Variável que armazenará o último algarismo do elemento do vetor
+	 
+	for(int i=0; i<n; i++){
+		elemento = v[i]; // A variável "elemento" recebe o valor do elemento do vetor Ex. elemento = v[1] = 23
+		elemento = elemento/10; // Divide seu valor por 10 Ex. elemento = 2
+		elemento = v[i]-elemento*10; // Atribui o valor do elemento do vetor menos Ex. elemento = 23 = 2*10 = 3
+		// Se o resto da divisão do "elemento" por "7" ou o último algarismo do elemento do vetor for "7", soma o valor do elemento do vetor
+		if(v[i]%7==0 || elemento==7) soma = soma+v[i];
+	}
+  return soma;
 }
-
 
 //[]-------------------------------------------------------------[]
 //   Função: testar()

@@ -12,8 +12,14 @@
 //            é multiplo de x.
 //[]-------------------------------------------------------------[]
 int maior_multiplo_de_x(int v[], int n, int x){
-   // escreva o seu codigo aqui
-   return 0;
+  int maior_elemento=0;
+	// Loop que percorre todo o vetor
+	for(int i=0; i<n; i++){
+		/* Se o resto da divisão do elemento do vetor por "x" for igual a "0", ele é múltiplo de "x"
+		 * Se o elemento do vetor for maior que o armazenado em maior_elemento, ele será o novo valor de maior_elemento */
+		if(v[i]%x == 0 && v[i]>maior_elemento) maior_elemento= v[i];
+	}
+	return maior_elemento;
 }
 
 

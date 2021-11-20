@@ -12,7 +12,30 @@
 //            caso exista, caso contrario devolva 0.
 //[]-------------------------------------------------------------[]
 int maior_primo(int v[], int n){
-   return 0;
+  int eh_primo, num_primo=0;
+
+	// Loop que percorre o vetor inteiro
+	for(int i=0; i<n; i++){
+		/* Zera o comparador
+		 * Caso ele nãos eja zerado ele será o resultado do anterior
+		 * Exemplo: Caso o v[i-1]=4, o eh_primo = 1, mas se v[i]=5 ele não será contado como primo pois o eh_primo = 1 */
+		eh_primo=0;
+		// Loop que divide o elemento do vetor por cada número entre "2" (menor primo possível) e a metade desse mesmo elemento (qualquer valor maior do que esse resultará em um valor decimal)
+		for(int j=2; j<=v[i]/2; j++){
+			// Se o elemento divido por qualquer número diferente de 1 e ele mesmo for igual a 0
+			if(v[i]%j == 0){
+				// eh_primo indica que o número não é primo
+				eh_primo++;
+				// Para o loop
+				break;
+			}
+		}
+		/* Se o eh_primo não teve alteração, o elemento é primo
+		 * O próximo número primo maior que num_primo será o novo valor de num_primo */
+		if(eh_primo==0 && v[i]>num_primo) num_primo = v[i];
+	}
+	// Retorna o maior número primo do vetor
+	return num_primo;
 }
 
 

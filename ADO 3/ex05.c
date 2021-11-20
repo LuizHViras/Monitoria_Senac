@@ -14,8 +14,13 @@
 //            do vetor.
 //[]-------------------------------------------------------------[]
 void troca_primeiro_com_ultimo(int v[], int n){
-   // escreva o seu codigo aqui ...
-    
+  // A variável "aux" recebe o valor do primeiro elemento do vetor
+	int aux = v[0];
+	/* O primeiro elemento recebe o valor do último elemento
+	 * O último elemento do vetor é o seu tamnanho menos "1" */
+	v[0] = v[n-1];
+	// O último elemento receberá o valor de "aux", pois "aux" possui o valor do primeiro elemento
+	v[n-1]=aux;    
 }
 
 //[]-------------------------------------------------------------[]

@@ -16,8 +16,25 @@
 //          elementos, devolva o menor.
 //[]-------------------------------------------------------------[]
 int moda(int v[], int n){
-   // escreva o seu codigo aqui ...
-   return 0;
+ int Moda=0; // Variável que armazenará a moda do vetor
+ int temp=0; // Variável que armazenará o número de vezes que um elemento aparece no vetor
+ int cont=0; // Variável que fará a comparação entre as repetições dentro do vetor
+	 for(int i=0; i<n; i++){
+		temp=0;
+		for(int j=i; j<n; j++) 
+			// Se o elemento do vetor é igual ao de referência, soma 1 a "temp"
+			if(v[j]==v[i]) 
+				temp++;
+		// Se esse elemento se repetir mais do que o anterior
+		if(temp>cont){
+			cont = temp; // Atribui esse valor à "cont"
+			Moda = v[i]; // Atribui esse elemento à "Moda"
+		}
+		// Se o elemento se repetir o mesmo número de vezes que o anterior e é menor do que o já armazenado
+		else if(temp==cont && v[i]<Moda)
+			Moda = v[i]; // Atribui esse elemento à "Moda"
+	}
+	return Moda;
 }
 
 

@@ -18,8 +18,28 @@
 //          496 = 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248
 //[]-------------------------------------------------------------[]
 int conta_numeros_perfeitos(int v[], int n){
-   // escreva o seu codigo aqui...
-   return 0;
+	int cont= 0;
+  for(int i=0; i<n; i++){
+		int soma = 0; // Variável que vai armazenar a soma
+		
+		/* Variável que armazenará o valor de quociente de cada divisão
+		 * Ele terá esse valor inicial pois é seu MDC
+		*/
+		int quo = v[i]/2;
+		// Enquanto quociente for maior igual do que "1"
+		while(quo>=1){
+			// Se o resto da divisão entre elemento do vetor e o quociente for "0" significa que ele é divisível pelo consciente
+			if (v[i]%quo==0){
+				/// Soma o valor do quociente a variável "soma"
+				soma = soma + quo;
+			}
+			// Subtraí "1" à variável "quo"
+			quo--;
+		}
+		// Se a elemento do vetor for igual a soma de seus divisores, aumenta "1" ao contador
+		if(v[i]==soma) cont++;
+	}
+	return cont;
 }
 
 
